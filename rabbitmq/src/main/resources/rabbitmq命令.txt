@@ -1,0 +1,5 @@
+net stop RabbitMQ && net start RabbitMQ   停止并启动
+
+http://localhost:15672/#/  访问rabbtmq 管理界面
+
+rabbitmq-plugins enable rabbitmq_management 启动web管理界面
